@@ -1,3 +1,6 @@
+//A Funcionalidade deve receber duas informações (string tipo e double valor) pelo corpo do //request.
+//Código da Funcionalidade:
+
 using System.Net;
 
 
@@ -48,10 +51,10 @@ private static double getIRDevido(string tipo, double valor) {
 
 private class Const {
     //Mensal, valores para cálculo
-    public double vBase { get; }// = 1903.98; 
-    public double vLPri { get; }// = 2826.65; 
-    public double vLSeg { get; }// = 3751.05; 
-    public double vLTer { get; }// = 4664.68; 
+    public double vBase { get; }
+    public double vLPri { get; }
+    public double vLSeg { get; }
+    public double vLTer { get; }
     
     public Const(string tipo) {
         if (tipo.Equals("Mensal")) {
