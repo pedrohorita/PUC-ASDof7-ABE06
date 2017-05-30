@@ -67,7 +67,7 @@ private class Const {
             vBase = 22847.76;
             vLPri = 33919.80;
             vLSeg  = 45012.60; 
-            vLTer = 45012.60;
+            vLTer = 55976.16;
         }
     }
 }
